@@ -118,4 +118,4 @@ Monitors branch-wise NPA percentages to identify risk-prone branches and improve
 
 ### Dashboard Preview
 
-![Dashboard Preview]([https://github.com/itzmegautam/Retail-Banking-Analytics-Dashboard/blob/main/Screenshot%202026-06-22%20210109.png))
+![Dashboard Preview](https://github.com/itzmegautam/Retail-Banking-Analytics-Dashboard/blob/main/Screenshot%202026-06-22%20210109.png)
