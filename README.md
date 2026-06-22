@@ -1,155 +1,121 @@
-🏦 Retail Banking Analytics Dashboard
-1. Project Title / Headline
+# 🏦 Retail Banking Analytics Dashboard
 
-🏦 Retail Banking Analytics Dashboard
+## 1. Project Title / Headline
 
-An interactive Power BI dashboard designed to monitor and analyze key banking performance metrics, helping financial institutions improve profitability, customer growth, loan management, and risk monitoring through data-driven insights.
+### 🏦 Retail Banking Analytics Dashboard
 
-2. Short Description / Purpose
+An interactive Power BI dashboard designed to monitor and analyze key banking metrics, helping financial institutions improve customer growth, loan performance, profitability, branch efficiency, and risk management.
 
-The Retail Banking Analytics Dashboard is a comprehensive Power BI solution developed to provide a centralized view of banking operations and performance.
+## 2. Short Description / Purpose
 
-It enables stakeholders to monitor deposits, loans, revenue, profitability, customer acquisition, and Non-Performing Assets (NPA) through interactive visualizations and KPI-driven reporting.
+The Retail Banking Analytics Dashboard is a comprehensive Power BI solution built to provide real-time visibility into banking operations. It enables stakeholders to track deposits, loans, revenue, profit, customer acquisition, and NPA performance through interactive visualizations and KPI-driven insights.
 
-This dashboard is intended for banking executives, branch managers, business analysts, operations teams, and decision-makers seeking actionable insights into branch performance and financial health.
+This dashboard is intended for banking managers, branch heads, financial analysts, operations teams, and decision-makers seeking data-driven insights to optimize banking performance and customer engagement.
 
-3. Tech Stack
+## 3. Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
-📊 Power BI Desktop – Primary platform for dashboard development and data visualization.
+* 📊 **Power BI Desktop** – Primary platform for data visualization and dashboard development.
+* 📂 **Power Query** – Used for data extraction, transformation, and cleaning.
+* 🧠 **DAX (Data Analysis Expressions)** – Created calculated measures, KPIs, and dynamic banking analytics.
+* 🔗 **Data Modeling** – Established relationships between datasets for accurate reporting and analysis.
+* 📁 **File Formats** – `.pbix` for development and `.png/.jpg` for dashboard previews.
 
-📂 Power Query – Used for data cleaning, transformation, and preparation.
+## 4. Data Source
 
-🧠 DAX (Data Analysis Expressions) – Developed calculated measures, KPIs, and financial metrics.
+**Source:** Sample Retail Banking Dataset
 
-🔗 Data Modeling – Established relationships and optimized data structure for reporting.
+The dataset contains operational banking information including:
 
-📁 File Formats – .pbix for development and .png/.jpg for dashboard previews.
+* Customer Accounts
+* Deposits
+* Loans
+* Revenue
+* Profit
+* Branch Information
+* NPA Records
+* Customer Acquisition & Closure Data
 
-4. Data Source
+The data was processed and transformed to create meaningful KPIs and business insights.
 
-Source: Sample Retail Banking Dataset
+## 5. Features / Highlights
 
-The dataset contains banking operational and financial information including:
+### • Business Problem
 
-Branch Information
-Customer Data
-Deposits
-Loans
-Revenue
-Expenses
-NPA Amount
-New Customers
-Closed Customers
-Monthly Performance Metrics
-
-The data was cleaned, transformed, and modeled to generate meaningful banking KPIs and business insights.
-
-5. Features / Highlights
-• Business Problem
-
-Retail banks manage multiple branches, customers, deposits, loans, and financial risks on a daily basis.
-
-Without a centralized analytics solution, it becomes difficult to:
-
-Monitor branch performance
-Track profitability
-Analyze customer growth trends
-Identify high-risk loan portfolios
-Monitor NPA levels
-Compare branch-level financial performance
+Retail banking operations involve multiple financial products, customers, loans, deposits, and branch activities. Without a centralized monitoring system, organizations often struggle to identify growth opportunities, monitor branch performance, manage loan risks, and improve customer retention.
 
 Key questions such as:
 
-Which branches generate the highest revenue?
-Are customer acquisition efforts improving?
-How profitable is the banking operation?
-Which branches have the highest NPA levels?
-Are deposits and loans growing consistently?
-What is the overall financial health of the bank?
+* Which branches generate the highest revenue?
+* How are deposits and loans performing over time?
+* Which branches have the highest NPA percentage?
+* Is customer acquisition improving?
+* How profitable is the banking operation?
+* Which branches contribute most to business growth?
 
-are difficult to answer using raw transactional data alone.
+can be difficult to answer using raw banking data.
 
-• Goal of the Dashboard
+### • Goal of the Dashboard
 
 The dashboard aims to:
 
-Monitor overall banking performance.
-Track deposits, loans, revenue, and profit trends.
-Measure customer acquisition and retention.
-Analyze NPA risk across branches.
-Identify top-performing branches.
-Support strategic banking decisions through data-driven insights.
-• Walkthrough of Key Visuals
-KPI Cards
+* Monitor overall banking performance.
+* Track deposits and loan growth.
+* Analyze revenue and profit trends.
+* Measure customer acquisition and retention.
+* Identify branch-wise performance.
+* Monitor NPA levels and risk indicators.
+* Support data-driven decision making.
 
-Displays key banking metrics including:
+### • Walkthrough of Key Visuals
 
-Total Deposits
-Total Loans
-Total Revenue
-Net Profit
-NPA %
-Net Customers
-Revenue Trend Analysis
+#### KPI Cards
 
-Tracks monthly revenue performance and identifies growth patterns over time.
+Displays key business metrics including:
 
-Deposits vs Loans Analysis
+* Total Deposits
+* Total Loans
+* Total Revenue
+* Total Profit
+* NPA %
+* Net Customers
 
-Compares monthly deposits and loan disbursements to evaluate financial balance and lending activity.
+#### Revenue Analysis
 
-Customer Growth Analysis
+Visualizes monthly revenue trends, helping identify business growth patterns and revenue fluctuations.
 
-Monitors new customer acquisition versus closed customer accounts to assess customer retention and growth.
+#### Deposits vs Loans Analysis
 
-Net Profit Trend
+Compares monthly deposits and loan disbursements, enabling performance evaluation and liquidity monitoring.
 
-Analyzes profitability trends across different time periods and highlights performance fluctuations.
+#### Customer Growth Analysis
 
-Branch Performance Dashboard
+Tracks new customers versus closed customers to measure customer acquisition and retention performance.
 
-Ranks branches based on revenue contribution and financial performance.
+#### Profit Monitoring
 
-NPA Risk Analysis
+Analyzes monthly profit trends to identify profitable periods and business opportunities.
 
-Evaluates branch-level NPA percentages to identify high-risk branches and potential credit quality issues.
+#### Branch Performance Dashboard
 
-• Business Impact & Insights
-Improved Financial Visibility
+Evaluates branch-wise revenue contribution and highlights top-performing branches.
 
-Provided a centralized view of critical banking KPIs and branch performance metrics.
+#### NPA Analysis
 
-Enhanced Risk Monitoring
+Monitors branch-wise NPA percentages to identify risk-prone branches and improve credit management.
 
-Identified branches with elevated NPA percentages, enabling proactive risk management.
+### • Business Impact & Insights
 
-Better Customer Analytics
-
-Tracked customer acquisition and account closure trends to improve customer retention strategies.
-
-Performance Benchmarking
-
-Highlighted top-performing branches based on revenue and profitability metrics.
-
-Data-Driven Decision Making
-
-Enabled management to make informed operational and strategic decisions through interactive reporting.
-
-📌 Key KPIs Tracked
-Total Deposits (Cr)
-Total Loans (Cr)
-Total Revenue (Cr)
-Net Profit (Cr)
-NPA %
-Net Customers
-Monthly Revenue Trend
-Branch-wise Revenue
-Branch-wise NPA Analysis
-Customer Growth Trend
+* Improved visibility into banking operations.
+* Identified top-performing branches contributing maximum revenue.
+* Enabled proactive monitoring of NPA and credit risks.
+* Improved customer growth tracking and retention analysis.
+* Supported profitability enhancement through data-driven decisions.
+* Enhanced branch performance monitoring and strategic planning.
 
 ## 6. Screenshots / Demo
 
 ### Dashboard Preview
-![Dashboard Preview]([https://github.com/itzmegautam/SUPPLY-CHAIN-DASHBOARD/blob/main/SUPPLY%20CHAIN%20DASHBOARD.png](https://github.com/itzmegautam/Retail-Banking-Analytics-Dashboard/blob/main/Screenshot%202026-06-22%20210109.png))
+
+![Dashboard Preview]([https://github.com/itzmegautam/Retail-Banking-Analytics-Dashboard/blob/main/Screenshot%202026-06-22%20210109.png))
